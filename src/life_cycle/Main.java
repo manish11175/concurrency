@@ -56,7 +56,7 @@ public class Main {
                 try{
                     Thread.sleep(1000);
 //                System.out.println("C. State = "+thread.getState());
-                    if(System.currentTimeMillis()-now>8000){
+                    if(System.currentTimeMillis()-now>2000){
                         thread.interrupt();
                     }
                 }

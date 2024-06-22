@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb6ee5-602b-440c-8571-3a0bf9e47670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterationWithThread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/life_cycle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_thread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread_creation/CustomThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread_creation/ThreadByRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiple_threads/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiple_threads/ThreadColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/task1/PrintEvenThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/task1/question" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/life_cycle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/life_cycle/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.life_cycle.Main">
+  <component name="RunManager" selected="Application.multiple_threads.Main">
     <configuration name="CustomThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread_creation.CustomThread" />
       <module name="concurrency" />
@@ -76,19 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main_thread.Main" />
-      <module name="concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main_thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="life_cycle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="life_cycle.Main" />
       <module name="concurrency" />
@@ -102,12 +86,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="multiple_threads.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiple_threads.Main" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiple_threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problems.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.task1.Main" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.multiple_threads.Main" />
+        <item itemvalue="Application.problems.task1.Main" />
         <item itemvalue="Application.life_cycle.Main" />
         <item itemvalue="Application.InterationWithThread.Main" />
         <item itemvalue="Application.CustomThread" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
