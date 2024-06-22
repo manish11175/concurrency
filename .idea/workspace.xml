@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb6ee5-602b-440c-8571-3a0bf9e47670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multiple_threads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple_threads/ThreadColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/task1/PrintEvenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/task1/question" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/life_cycle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/life_cycle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Theory" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
