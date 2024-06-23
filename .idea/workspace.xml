@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb6ee5-602b-440c-8571-3a0bf9e47670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Theory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory_consistency_error/CachedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory_consistency_error/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sychronization/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sychronization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/volatile_/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multiple_threads/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiple_threads/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +46,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.multiple_threads.Main">
-    <configuration name="CustomThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread_creation.CustomThread" />
+  <component name="RunManager" selected="Application.sychronization.Main">
+    <configuration name="CachedData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory_consistency_error.CachedData" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread_creation.*" />
+          <option name="PATTERN" value="memory_consistency_error.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,25 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterationWithThread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterationWithThread.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="volatile_.Main" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterationWithThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="life_cycle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="life_cycle.Main" />
-      <module name="concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="life_cycle.*" />
+          <option name="PATTERN" value="volatile_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sychronization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sychronization.Main" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sychronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sychronization.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CachedData" />
         <item itemvalue="Application.multiple_threads.Main" />
         <item itemvalue="Application.problems.task1.Main" />
-        <item itemvalue="Application.life_cycle.Main" />
-        <item itemvalue="Application.InterationWithThread.Main" />
-        <item itemvalue="Application.CustomThread" />
       </list>
     </recent_temporary>
   </component>
