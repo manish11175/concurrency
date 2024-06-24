@@ -1,6 +1,5 @@
 package deadlock;
 
-import java.util.List;
 import java.util.Random;
 
 class MessageRepository{
@@ -75,7 +74,7 @@ class MessageReader implements Runnable{
               catch (InterruptedException e){
                   throw new RuntimeException();
               }
-              String latestMessage = incomingMessage.read();;
+              String latestMessage = incomingMessage.read();
               System.out.println(latestMessage);
           }
           while (!incomingMessage.equals("Finished"));

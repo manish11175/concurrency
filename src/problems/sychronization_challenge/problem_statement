@@ -1,0 +1,35 @@
+In this challenge, you'll be creating your own Producer and Consumer example, for a Shoe Warehouse Center
+The Producer code should generate orders, and send them to Shoe Warehouse to be processed
+The consumer code should fulfil, or process the order in FIFO or first out order.
+
+You'll be creating at a minimum, three types for this an order, a Shoe Warehouse, and a Main executable class.
+
+
+An Order should include an order id, a shoe type, and the quantity ordered.
+A record might be a good fit for this type.
+
+
+The Shoe Warehouse
+the shoe warehouse class
+. Should maintain a product list, as a public static field.
+. It should maintain a private list of orders.
+. It should have two methods, receiveOrder and fulfillOrder
+
+The receiveOrder gets called by a Producer thread. It should poll  or loop indefinitely, checking the size of the list,
+but it should call wait if the list has reached some maximum capacity.
+
+The fulfillOrder gets called by a Consumer thread. It should also poll the list, but it needs to check if the list is empty,
+and wait in the loop, until an order is added.
+
+Both methods should invoke the wait and notifyAll methods appropriately.
+
+
+Finally, You'll need some kind of main class with main method, to execute.
+
+This method should create and start a single Producer Thread. This should generate 10 sales orders and call receiveOrder
+on the shoe warehouse, for each.
+
+In addition, you'll create and start two Consumer threads. Each Thread needs to process 5 fulfillment orders, calling
+fulfillOrder on the shoe warehouse for each item.
+
+You will test your Producer consumer application, and confirm your application fulfills all the 10 orders it receives.

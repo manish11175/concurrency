@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb6ee5-602b-440c-8571-3a0bf9e47670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/deadlock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/sychronization_challenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/sychronization_challenge/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/sychronization_challenge/Shoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/sychronization_challenge/WarehouseCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/sychronization_challenge/problem_statement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wait_n_notify/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deadlock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deadlock/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.deadlock.Main">
-    <configuration name="CachedData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory_consistency_error.CachedData" />
-      <module name="concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="memory_consistency_error.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.problems.sychronization_challenge.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="volatile_.Main" />
       <module name="concurrency" />
@@ -80,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="multiple_threads.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiple_threads.Main" />
+    <configuration name="problems.sychronization_challenge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.sychronization_challenge.Main" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiple_threads.*" />
+          <option name="PATTERN" value="problems.sychronization_challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wait_n_notify.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wait_n_notify.Main" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait_n_notify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.problems.sychronization_challenge.Main" />
+        <item itemvalue="Application.wait_n_notify.Main" />
         <item itemvalue="Application.deadlock.Main" />
         <item itemvalue="Application.sychronization.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CachedData" />
-        <item itemvalue="Application.multiple_threads.Main" />
       </list>
     </recent_temporary>
   </component>
