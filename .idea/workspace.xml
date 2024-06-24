@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb6ee5-602b-440c-8571-3a0bf9e47670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/memory_consistency_error/CachedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/memory_consistency_error/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sychronization/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sychronization/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/volatile_/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiple_threads/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiple_threads/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deadlock/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.sychronization.Main">
+  <component name="RunManager" selected="Application.deadlock.Main">
     <configuration name="CachedData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="memory_consistency_error.CachedData" />
       <module name="concurrency" />
@@ -73,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="multiple_threads.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiple_threads.Main" />
+    <configuration name="deadlock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deadlock.Main" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiple_threads.*" />
+          <option name="PATTERN" value="deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problems.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.task1.Main" />
+    <configuration name="multiple_threads.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiple_threads.Main" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.task1.*" />
+          <option name="PATTERN" value="multiple_threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.deadlock.Main" />
         <item itemvalue="Application.sychronization.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CachedData" />
         <item itemvalue="Application.multiple_threads.Main" />
-        <item itemvalue="Application.problems.task1.Main" />
       </list>
     </recent_temporary>
   </component>
