@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb6ee5-602b-440c-8571-3a0bf9e47670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/locks/ConditionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locks/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/volatile_/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/executors/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/executors/SingleThreadedExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/executors/ThreadColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/executors/future/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/executors/thread_pool/CachedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/executors/thread_pool/FixedThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,29 +44,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConditionClass">
-    <configuration name="ConditionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locks.ConditionClass" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CachedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.thread_pool.CachedThreadPool" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="volatile_.Example" />
-      <module name="concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="volatile_.*" />
+          <option name="PATTERN" value="executors.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +63,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="volatile_.Main" />
+      <option name="MAIN_CLASS_NAME" value="executors.future.Main" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="volatile_.*" />
+          <option name="PATTERN" value="executors.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locks.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locks.Main" />
+    <configuration name="SingleThreadedExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.SingleThreadedExecutor" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locks.*" />
+          <option name="PATTERN" value="executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problems.sychronization_challenge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.sychronization_challenge.Main" />
+    <configuration name="executors.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.Main" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.sychronization_challenge.*" />
+          <option name="PATTERN" value="executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="executors.thread_pool.FixedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.thread_pool.FixedThreadPool" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="executors.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConditionClass" />
-        <item itemvalue="Application.locks.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Example" />
-        <item itemvalue="Application.problems.sychronization_challenge.Main" />
+        <item itemvalue="Application.CachedThreadPool" />
+        <item itemvalue="Application.executors.thread_pool.FixedThreadPool" />
+        <item itemvalue="Application.SingleThreadedExecutor" />
+        <item itemvalue="Application.executors.Main" />
       </list>
     </recent_temporary>
   </component>
