@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb6ee5-602b-440c-8571-3a0bf9e47670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/executors/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/executors/SingleThreadedExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/executors/ThreadColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/executors/future/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/executors/thread_pool/CachedThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/executors/thread_pool/FixedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/executors/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/executors/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/executors/Shoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/executors/Solutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/executors/WarehouseCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/executors/problem_statement" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +44,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/manish/concurrency/src/problems/executors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CachedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="executors.thread_pool.CachedThreadPool" />
-      <module name="concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="executors.thread_pool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\manish\concurrency\src\problems\executors" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solutions">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="executors.future.Main" />
       <module name="concurrency" />
@@ -88,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="executors.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="executors.Main" />
+    <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.executors.Solutions" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="executors.*" />
+          <option name="PATTERN" value="problems.executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="problems.executors.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.executors.Main" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CachedThreadPool" />
+        <item itemvalue="Application.Solutions" />
+        <item itemvalue="Application.problems.executors.Main" />
         <item itemvalue="Application.executors.thread_pool.FixedThreadPool" />
         <item itemvalue="Application.SingleThreadedExecutor" />
-        <item itemvalue="Application.executors.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

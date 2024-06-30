@@ -1,0 +1,13 @@
+In this challenge, I want you to modify, and enhance, the shoe warehouse Fulfillment code you created,
+from the previous challenge.
+
+You should use ExecutorService classes, any of the three that i have covered, so use a SingleThreadExecutor,
+a FixedThreadPool, or a CachedThreadPool, or a combination of these.
+
+You'll use these, instead of managing individual threads, as you did in that previous challenge.
+
+Add an ExecutorService in the main method, to send orders to the warehouse.
+
+Add an ExecutorService to the ShoeWareHouse class, which will fulfill orders.
+
+you should create and fulfill 15 shoe orders.
